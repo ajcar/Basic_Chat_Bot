@@ -46,11 +46,10 @@ def test():
         print('Please, try again.')
         user_response = int(input())
     if user_response == 2:
-        print('Completed!')
+        print('Congratulations, have a nice day!')
 
 
-def end():
-    print('Congratulations, have a nice day!')
+
 
 
 greet('SUPERBOT', '2023')  # change it as you need
@@ -59,4 +58,3 @@ guess_age()
 count()
 test()
 # ...
-end()
